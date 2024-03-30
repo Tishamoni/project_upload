@@ -1,0 +1,268 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #EFF2F6;
+    
+}
+
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: white;
+    
+    
+}
+
+
+
+/* Navbar logo CSS start*/
+.nav-bar-logo-bingo{
+    position: relative;
+}
+
+.nav-bar-logo-bingo a{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #551A8B;
+    
+}
+
+.nav-bar-logo-bingo a:after{
+    content: "";
+    position: absolute;
+    background-color: aquamarine;
+    height: 3px;
+    width: 0%;
+    bottom: -25%;
+    left: 0%;
+    transition: 0.3s;
+    
+}
+
+.nav-bar-logo-bingo a:hover::after{
+    width: 120%;
+}
+
+/* Navbar logo CSS end*/
+
+
+/* Navbar filter, collab, upload button CSS start*/
+.nav-bar-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5rem;
+    margin-top: 0.5rem;
+}
+
+.nav-bar-buttons button{
+    
+    margin-right: 0.5rem;
+    background: #e5e5e56f;
+    border: none;
+    width: 7rem;
+    height:2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-bar-buttons button:hover{
+    background: #E5E5E5;
+}
+
+.nav-bar-buttons a{
+    /* background: linear-gradient(90deg, #fc00ff, #008CBA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #551A8B;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.filter-div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.filter-logo{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height:1rem;
+    width: 1rem;
+    object-fit: cover;
+    position: absolute;
+}
+.filter-logoC{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height:0.5rem;
+    width: 0.5rem;
+    object-fit: cover;
+    position: absolute;
+}
+
+/*Navbar filter, collab, upload button CSS ends here*/
+
+
+/* Navbar Search and logo CSS strart */
+.nav-bar-search-image-textbox-join{
+    position: relative;
+    align-items: center;
+    margin-right: 5%
+}
+
+.nav-bar-search-image-textbox-join input{
+    background-color: aliceblue;
+    border: none;
+    height: 1.6rem;
+    border-radius: 10px;
+    
+    
+}
+
+.nav-bar-search-image-textbox-join input:hover{
+    border: 2px solid #7A8592;
+}
+
+
+
+#search-icon{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    padding-left: 90%;
+    padding-top: 4%;
+    
+    
+}
+
+/* Navbar Search and logo CSS End */
+
+/*Navbar search, login, registration button style starts */
+.nav-bar-search-login-registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-bar-search-login-registration button{
+    margin-right: 3%;
+    height: 2rem;
+    width: 6rem;
+    background: #b3dcff7c;
+    border: none;
+    border-radius: 1rem;
+    
+}
+
+.nav-bar-search-login-registration button:hover{
+    background: rgba(240, 248, 255, 0.167);
+    border: 2px solid black;
+}
+
+.nav-bar-search-login-registration a{
+    font-size: large;
+    font-weight: bold;
+    color: #551A8B;
+    
+    
+}
+
+/*Navbar search, login, registration butoon style starts */
+
+
+/*Main body styling starts*/
+
+.container{
+    margin: 10rem;
+    margin-top: 3rem;
+    
+    
+}
+
+.main-body-individual-project-seperation-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    background: #FFFFFF;
+    padding: 2rem;
+}
+
+.main-body-individual-project-seperation-div img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    margin-right: 3rem;
+    border-radius: 1rem;
+}
+
+.main-body-image-overlay-text{
+    top: 0;
+    right: -100%;
+    height:100%;
+    width:100%;
+    background: #1f3d4796;
+    backdrop-filter: blur(5px);
+    border-radius:15px ;
+    position: absolute;
+    transition: 2s;
+    border-radius: 1rem;
+}
+
+.main-body-image-overlay-div{
+    width: 150rem;
+    height: 20rem;
+    
+    border-radius: 20px;
+    overflow: hidden;
+    
+    position: relative;
+}
+
+.main-body-image-overlay-div:hover .main-body-image-overlay-text{
+    right:0;
+}
+
+.main-body-image-overlay-text p{
+    margin-top: 30%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background: white;
+}
+
+.main-body-text{
+    margin-left: 10%;
+
+}
+
+.main-body-text h1{
+    transition:all 1s ease;
+    cursor: pointer;
+}
+
+.main-body-text h1:hover{
+    transform: scale(1.1);
+}
+
+/* Main body CSS ends*/
