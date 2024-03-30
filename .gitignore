@@ -1,0 +1,29 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs and other generated files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore npm's cache
+.npm
+
+# Ignore dist directory for build output
+dist/
+
+# Ignore .DS_Store files (macOS)
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+
+# Ignore .vscode directory
+.vscode/

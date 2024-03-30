@@ -21,7 +21,7 @@ body{
   padding-right: 10%;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: white;
+  background: rgb(218, 234, 243);
   
   
 }
@@ -152,14 +152,15 @@ body{
   margin-right: 3%;
   height: 2rem;
   width: 6rem;
-  background: #b3dcff7c;
+  background: #000000f8;
   border: none;
   border-radius: 1rem;
+  margin-left: 10px;
   
 }
 
 .nav-bar-search-login-registration button:hover{
-  background: rgba(240, 248, 255, 0.167);
+  background: rgba(8, 76, 136, 0.733);
   border: 2px solid black;
 }
 
@@ -190,6 +191,7 @@ body{
   margin-bottom: 3rem;
   background: #FFFFFF;
   padding: 2rem;
+  border-radius: 10px;
 }
 
 .main-body-individual-project-seperation-div img{
@@ -217,11 +219,10 @@ body{
 .main-body-image-overlay-div{
   width: 150rem;
   height: 20rem;
-  
   border-radius: 20px;
   overflow: hidden;
-  
   position: relative;
+
 }
 
 .main-body-image-overlay-div:hover .main-body-image-overlay-text{
@@ -229,7 +230,7 @@ body{
 }
 
 .main-body-image-overlay-text p{
-  margin-top: 30%;
+  margin-top: 20%;
   text-align: center;
   font-size: large;
   font-weight: bold;
@@ -272,8 +273,9 @@ body{
   display: inline-block;
   padding: 0.5rem 1rem;
   margin-right: 1rem;
-  background-color: #f0f0f0;
-  border-radius: 5px;
+  background-color: #189fec;
+  border-radius: 8px;
+  color: white;
 }
 
 /* Short description box */
