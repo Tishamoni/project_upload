@@ -21,8 +21,7 @@ body{
   padding-right: 10%;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: rgb(218, 234, 243);
-  
+  background-color: #28282B; 
   
 }
 
@@ -196,11 +195,12 @@ body{
 
 .main-body-individual-project-seperation-div img{
   height: 100%;
-  width: 100%;
+  width: 80%;
   cursor: pointer;
   object-fit: cover;
   margin-right: 3rem;
   border-radius: 1rem;
+  
 }
 
 .main-body-image-overlay-text{
@@ -208,11 +208,8 @@ body{
   right: -100%;
   height:100%;
   width:100%;
-  background: #1f3d4796;
-  backdrop-filter: blur(5px);
   border-radius:15px ;
   position: absolute;
-  transition: 2s;
   border-radius: 1rem;
 }
 
