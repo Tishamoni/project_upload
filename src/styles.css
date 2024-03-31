@@ -85,6 +85,7 @@ body{
   justify-content: space-between;
 }
 
+
 .filter-logo{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -289,11 +290,36 @@ body{
 .social {
   display: flex;
   justify-content: space-between;
-  width: 100px; /* Adjust as needed */
+  width: 200px; /* Adjust width as needed */
 }
 
-.social img {
-  height: 25px;
-  width: 25px;
+.social .project_like,
+.social .project_comment,
+.social .project_share {
   cursor: pointer;
+  transition: transform 0.2s;
+  background-color: #dbdeea; /* Background color */
+  padding: 5px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  margin:10px
+}
+
+.social .project_like img,
+.social .project_comment img,
+.social .project_share img {
+  width: 30px; /* Adjust size as needed */
+  height: auto;
+}
+
+.social .project_like:hover,
+.social .project_comment:hover,
+.social .project_share:hover {
+  transform: scale(1.1);
+}
+
+/* Customize hover color */
+.social .project_like:hover img,
+.social .project_comment:hover img,
+.social .project_share:hover img {
+  filter: invert(42%) sepia(90%) saturate(2523%) hue-rotate(344deg) brightness(95%) contrast(94%);
 }
